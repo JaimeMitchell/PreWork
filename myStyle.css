@@ -15,20 +15,26 @@ a{
     color:purple;
 }
 nav{
-    text-align: center;
-    border:2px solid black;
     
 }
  ul{
     display: table; 
     margin: auto;
+    font-display: inline;
+    display: inline;
     text-align: center;
+    font-size: 1.5em;
 }
  ol{
-    font-family: helvetica, serif;
-    font-style: italic;
-    letter-spacing: 1pt;
+    font-family: Verdana, sans-serif;
+    font-style: oblique;
+    
 
+}
+article{
+    display: table;
+    margin: auto;
+    text-align: left;
 }
 h2{
     color: black;
@@ -38,6 +44,8 @@ h2{
 h3{
     color: black;
     text-align: center;
+   
+    
 }
 p{
     color: black;
