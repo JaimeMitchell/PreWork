@@ -4,43 +4,84 @@
         <title>Jaime Mitchell</title>
         <meta charset="UTF-8"> <!--REMEMBER: "Bettah Self-Close Meta!"-->
         <link rel="stylesheet" type="text/css" href="myStyle.css">
-    </head>
+    </head> 
+    <style type="text/css">
+        body{
+            background-color: whitesmoke;
+        }
+       
+        header{
+            
+            color:black;
+            background-color:rgb(27, 157, 159);
+            font-family: monospace;
+            font-size: 59pt;
+            font-style: bold;
+            text-align: center;
+        }
+        nav{
+            text-align: center;
+            border:2px solid black;
+            
+        }
+         ul {
+            display: table; 
+            margin: auto;
+            text-align: center;
+       }
+        h2{
+            color: black;
+            text-decoration: underline;
+            text-align: center;
+        }
+        h3{
+            color: black;
+            text-align: center;
+        }
+       
+        div.center{
+            text-align: center;
+        }
+       
+       div.list{
+        border:5px black;
+        display:inline}
+      footer{
+          text-align: center;
+      }
+    </style>
     <body>
-        <!--Header and intro paragraph-->
-        <header>WELCOME</header>
-        <nav>
+        <!--put header in container and auto size-->
+      <header>WELCOME TO MY SPIEL-SITE!</header>
+      <nav>
             <ul>
                 <li><a href="/index.html">Page 1</a></li>
                 <li><a href="/page2.html">Page 2</a></li>
             </ul>
-        </nav>
-        <h2>Jaime Mitchell</h2>
-        <h3>Hello! Welcome to my page!</h3>
-        <p>Hi, my name is Jaime and this page marks the beginning of my 15 week journey into a promising career as a software engineer!</p>
-        <h4>Activities I enjoy outside of tech</h4>
-        <ul>
-              <li><a target= "_blank" href="https://www.flickr.com/photos/157367301@N07/51977022397/in/album-72157719342374784/">Making/building/DIY (Currently making my van a legit home)</a></li>
-              <li><a target = "_blank" href="https://jaimemitchell100.wixsite.com/jaime100/eventphotography">Photography</a></li>
-              <li><a target = "_blank" href="https://www.coroflot.com/jaimemitchell">Art'n'Design</a></li>
-              <li><a target = "_blank" href="https://www.youtube.com/playlist?list=PLgS1fRzkZMuPgjlmUBsHUF0FnkRGiuglx">Dabbling in Cinematography and Post-Production for music videos</a></li>
-              <li><a target = "_blank"  href="https://youtu.be/-rmHir6Hsbs">Political Acts of Kindness with a sprinkling of SaltyAF</a></li>
-              
-              <li>Biking and lots of outdoor athletic shenanigans. No links, because it's me time.</li>
-        </ul>
-        
-        <!--Image and anchor image as link-->
-        <a href="https://www.instagram.com/jaimemitchell100/"><img src="https://static.wixstatic.com/media/b0b322_2ebef6bf9c564fef981b41bc4f34199d~mv2.jpg/v1/crop/x_374,y_280,w_768,h_592/fill/w_416,h_316,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/b0b322_2ebef6bf9c564fef981b41bc4f34199d~mv2.jpg" size=400px alt="Link to my Instagram">
-        </a>
+      </nav>
+        <!--intro-->
+        <h2>My name is Jaime Mitchell</h2>
+        <h3>Hey there! This page marks the beginning of my 15 week journey into a promising career as a software engineer!</h3>
+      <div class="center">
+        <h2>Here's how it began for me:</h2>
+        <iframe width="1080" height="630" src="https://www.youtube.com/embed/Ozckjxz_v8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+        <div class="list" class="center">
+          <p> I was a gardener and arborist by trade until a previous disability, plus a back injury, prevented me from the work.</p>
+          <p> I moved into my car and tried a previous side hustle as an event photographer and cinematographer, but gigs were seldom and pay was bad, then the pandemic hit.</p>
+          <p> But, I had a <b>ton</b> going for me as well. I had a<em>wealth of time</em> and isolation gave me a necessary focus to keep my mind busy learning.</p> 
+          <p> I picked up a cheap Raspberry Pi and a knock-off Arduino kit (Elegoo) and taught myself a little bit about microelectronics, embedded coding and the Command Line.</p> 
+          <p> With every successful program written I got some confidence back and eventually applied to this program.</p>
+        </div>
+        <br><br>
+        <hr color="black">
         <br>
-        <!-- Video iframe is specific youtube element-->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wp9I4ccVILQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <!-- Table -->
         <br>
-    
-        <footer class="footer">
+        <br>
+    <footer class="footer">
             <a id="license" rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
             <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
             </a>
-        </footer>
+    </footer>
     </body>
 </html>
