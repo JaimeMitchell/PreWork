@@ -11,15 +11,24 @@ header{
     font-style: bold;
     text-align: center;
 }
+a{
+    color:purple;
+}
 nav{
     text-align: center;
     border:2px solid black;
     
 }
- ul {
+ ul{
     display: table; 
     margin: auto;
     text-align: center;
+}
+ ol{
+    font-family: helvetica, serif;
+    font-style: italic;
+    letter-spacing: 1pt;
+
 }
 h2{
     color: black;
@@ -32,7 +41,8 @@ h3{
 }
 p{
     color: black;
-    font-size:112pt;
+    font-size:16pt;
+    font-style: bold;
     text-align: center;
 }
 div.center{
@@ -42,6 +52,11 @@ div.center{
 div.list{
 border:5px black;
 display:inline}
+
+div.myDivElement{
+    display:inline;
+  }
+
 footer{
   text-align: center;
 }
