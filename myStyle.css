@@ -62,7 +62,9 @@ p {
 #pGrWhite {
     color: rgb(193, 233, 159)
 }
-
+#pBlWhite {
+    color: rgb(159, 233, 233)
+}
 table {
     background-color: rgb(27, 157, 159);
     color: rgb(247, 184, 184);
