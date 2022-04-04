@@ -16,6 +16,39 @@ a {
     color: rgb(227, 238, 97);
 }
 
+#div1 {
+    background-color: rgb(27, 146, 27);
+   
+}
+
+#div2 {
+    background-color: rgb(238, 151, 29);
+    
+}
+
+#div3 {
+    background-color: rgb(13, 159, 144);
+   
+}
+
+#div4 {
+    background-color: rgb(195, 255, 0);
+    
+}
+
+#div1,
+#div2,
+#div3,
+#div4 {
+    border: dotted;
+
+}
+
+span {
+    color: purple;
+    background-color: greenyellow
+}
+
 ul {
     font-size: 1.5em;
 
@@ -62,9 +95,11 @@ p {
 #pGrWhite {
     color: rgb(193, 233, 159)
 }
+
 #pBlWhite {
     color: rgb(159, 233, 233)
 }
+
 table {
     background-color: rgb(27, 157, 159);
     color: rgb(247, 184, 184);
