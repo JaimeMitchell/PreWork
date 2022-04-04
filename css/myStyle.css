@@ -17,7 +17,7 @@ a {
 }
 
 #div1 {
-    background-color: rgb(27, 146, 27);
+    background-color: rgb(13, 159, 144);
    
 }
 
@@ -32,7 +32,7 @@ a {
 }
 
 #div4 {
-    background-color: rgb(195, 255, 0);
+    
     
 }
 
@@ -41,6 +41,7 @@ a {
 #div3,
 #div4 {
     border: dotted;
+    padding: 12px 0px 12px 12px;
 
 }
 
