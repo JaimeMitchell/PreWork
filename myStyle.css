@@ -3,13 +3,9 @@ body {
     background-image: url('https://live.staticflickr.com/65535/51980773298_984da77e00_k.jpg');
 }
 
-table {
-    background-color: rgb(247, 184, 184)
-}
-
 header {
 
-    color: whitesmoke;
+    color: rgb(204, 240, 235);
     background-color: rgb(27, 157, 159);
     font-family: monospace;
     font-size: 59pt;
@@ -22,17 +18,24 @@ a {
 
 ul {
     font-size: 1.5em;
+
+}
+
+#listUl {
+    color: white;
+    display: inline;
 }
 
 ol {
     font-family: Verdana, sans-serif;
     font-style: oblique;
+    font-size: 14pt;
 }
 
 h2 {
     color: yellowgreen;
     text-decoration: none;
-    font-family: none;
+    font-family: helvetica;
     letter-spacing: 1pt;
 }
 
@@ -44,9 +47,30 @@ h3 {
 }
 
 p {
-    color: silver;
     font-size: 16pt;
+}
+
+.pSilver {
+    color: silver;
     font-style: bold;
+}
+
+#pYeWhite {
+    color: rgb(244, 220, 162)
+}
+
+#pGrWhite {
+    color: rgb(193, 233, 159)
+}
+
+table {
+    background-color: rgb(27, 157, 159);
+    color: rgb(247, 184, 184);
+    font-size: 14pt;
+}
+
+footer {
+    text-align: center;
 }
 
 .center {
@@ -62,21 +86,4 @@ p {
     width: 300px;
     border: 3px solid #73AD21;
     padding: 10px;
-}
-
-footer {
-    text-align: center;
-}
-
-#pYeWhite {
-    color: rgb(244, 220, 162)
-}
-
-#pGrWhite {
-    color: rgb(193, 233, 159)
-}
-
-.divListUl {
-    border: 5px white;
-    display: inline;
 }
