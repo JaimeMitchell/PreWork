@@ -11,19 +11,19 @@
 <body>
     <!--put header and navigation in div together? Nav may go on bottom right side for style 'Turn Page' button-->
 
-    <header>WELCOME TO MY 2-PAGE SPIEL-SITE!</header>
+    <header class="centerHead">WELCOME TO MY 2-PAGE SPIEL-SITE!</header>
     <div>
-        <nav>
+        <nav class="navCenter">
             <ul>
-                <li><a href="index.html">Page 1</a></li>
-                <li><a href="page2.html">Page 2</a></li>
+                <li class="center"><a class="hover" class="visited" class="unvisited" class="active" href="index.html">Page 1</a></li>
+                <li class="center"><a href="page2.html">Page 2</a></li>
             </ul>
         </nav>
     </div>
     <!--intro div-->
     <div>
         <h1>Hey there, I'm Jaime Mitchell</h2>
-        <h3>This page marks the beginning of my 15 week journey into a career as a software engineer!</h3>
+            <h3>This page marks the beginning of my 15 week journey into a career as a software engineer!</h3>
     </div>
     <div>
         <h2>Here's how software engineering began for me:</h2>
@@ -31,34 +31,45 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
-        <p id="pYeWhite"> During the lock down I picked up a cheap Raspberry Pi and a knock-off Arduino kit (Elegoo) and taught myself a
+        <p id="pYeWhite"> During the lock down I picked up a cheap Raspberry Pi and a knock-off Arduino kit (Elegoo) and
+            taught myself a
             little bit about microelectronics, embedded coding and the Command Line.</p>
         <p id="pGrWhite"> With every successful program written I got some confidence and eventually applied to this
             program.</p>
     </div>
-<form class="right">
-    <h3>2 truths and a Lie</h3>
-    I live in a tiny home with wheels
-    <input type="checkbox" name="truth"> <br>
-    I was a gardener, arborist and moonlighted as a photographer
-    <input type="checkbox" name="false"><br>
-    I love long walks on the beach when the sand is 200 degrees
-    <input type="text" name="false"><br>
+    <!--Two Truths & a Lie Form-->
+    <form class="center">
+        <h3>2 truths and a Lie</h3>
+        <p>I live in a tiny home with wheels
+            <input class="truth" class="center" type="checkbox" name="truth">
+        </p>
+        <p>I was a gardener, arborist and moonlighted as a photographer
+            <input class="truth" class="center" type="checkbox" name="false">
+        </p>
+        <p>I love long walks on the beach when the sand is 200 degrees
+            <input class="truth" class="center" type="checkbox" name="false">
+        </p>
+    </form>
+    <form>
+        <br>
+        <br>
+        <br>
+        <!--Gender Form-->
+        <p>From the video, if I had to pick a box to represent my gender, what is it?</p>
+        <label for="Male">
+            <input id="Male" type="radio" name="gender" value="Male">Male
+        </label>
+        <label for="Female">
+            <input id="Female" type="radio" name="gender" value="Female">Female
+        </label>
+        <label for="X">
+            <input id="X" type="radio" name="gender" value="X">X
+        </label>
+    </form>
 
-    From the video, if I had to pick a box to represent my gender, what is it?
-   <label for="Male">
-    <input id="Male" type="radio" name="gender" value="Male">Male
-</label>
-<label for="Female">
-    <input id="Female" type="radio" name="gender" value="Female">Female
-</label>
-<label for="X">
-    <input id="X" type="radio" name="gender" value="X">X
-</label>
-</form>
     <!-- break for footer-->
     <br>
-    <br> 
+    <br>
     <br>
     <footer class="footer">
         <a id="license" rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">

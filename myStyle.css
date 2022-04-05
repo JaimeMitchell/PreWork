@@ -8,13 +8,33 @@ header {
     color: rgb(204, 240, 235);
     background-color: rgb(27, 157, 159);
     font-family: monospace;
-    font-size: 59pt;
+    font-size: 45pt;
     font-style: bold;
+    text-align: center;
 }
 
+.centerHead {
+    margin: inherit;
+    width: 95%;
+    border: 3px solid rgb(138, 209, 244);
+    border-radius: .25em;
+    padding: .2em;
+}
+ul {display:flex;
+    padding:flex;
+    margin:flex;
+    width:flex;
+}
 a {
     color: rgb(227, 238, 97);
 }
+
+a.hover {
+    background-blend-mode: 1;
+}
+a.link{background-color: yellow;}
+a.unvisited{background-color: green;}
+a.active{background-color: blue;}
 
 #div1 {
     background-color: rgb(13, 159, 144);
@@ -43,16 +63,6 @@ a {
 span {
     color: purple;
     background-color: greenyellow
-}
-
-ul {
-    font-size: 1.5em;
-
-}
-
-#listUl {
-    color: white;
-    display: inline;
 }
 
 ol {
@@ -86,6 +96,11 @@ p {
     font-size: 16pt;
 }
 
+p.form {
+    font-size: 16pt;
+    padding: auto;
+}
+
 .pSilver {
     color: silver;
     font-style: bold;
@@ -110,9 +125,11 @@ table {
 }
 
 form {
-    padding: 15px;
-    margin: auto;
+    outline: none;
+    padding: 5px;
+    margin: center;
     background-color: none;
+    text-align: center;
     font-style: bold;
     font-family: helvetica;
     color: rgb(129, 237, 139);
@@ -120,10 +137,12 @@ form {
 
 }
 
-input[type=button]{
-    color:black;
-    background-color:none;
+input[type=button] {
+    color: black;
+    background-color: none;
     padding: 5px;
+    margin: center;
+
 }
 
 footer {
@@ -133,7 +152,7 @@ footer {
 .center {
     margin: auto;
     width: 50%;
-    border: 3px solid green;
+    border: 3px solid rgb(138, 209, 244);
     padding: 10px;
 }
 
