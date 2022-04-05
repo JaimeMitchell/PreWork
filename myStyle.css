@@ -20,24 +20,35 @@ header {
     border-radius: .25em;
     padding: .2em;
 }
-ul {display:flex;
-    padding:flex;
-    margin:flex;
-    width:flex;
+
+ul {
+    display: inline;
+    padding: flex;
+    margin: flex;
+    width: flex;
+    text-align:center;
 }
+li:hover,li:active {font-size: 150%;}
+
 a {
     color: rgb(227, 238, 97);
 }
-
-a.hover {
+a.xl:hover, a.xL:active {font-size: 150%;}
+a:hover {
     background-blend-mode: 1;
 }
-a.link{background-color: yellow;}
-a.unvisited{background-color: green;}
-a.active{background-color: blue;}
+
+a:link {
+    color: yellow;
+
+}
+
+a:active {
+    color: blue;
+}
 
 #div1 {
-    background-color: rgb(13, 159, 144);
+    color: rgb(13, 159, 144);
 
 }
 
