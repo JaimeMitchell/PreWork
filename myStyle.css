@@ -61,6 +61,13 @@ ol {
     font-size: 14pt;
 }
 
+h1 {
+    color: yellowgreen;
+    text-decoration: none;
+    font-family: helvetica;
+    letter-spacing: 1pt;
+}
+
 h2 {
     color: yellowgreen;
     text-decoration: none;
@@ -102,8 +109,25 @@ table {
     font-size: 14pt;
 }
 
+form {
+    padding: 15px;
+    margin: auto;
+    background-color: none;
+    font-style: bold;
+    font-family: helvetica;
+    color: rgb(129, 237, 139);
+
+
+}
+
+input[type=button]{
+    color:black;
+    background-color:none;
+    padding: 5px;
+}
+
 footer {
-    text-align: center;
+    text-align: left;
 }
 
 .center {
@@ -115,8 +139,9 @@ footer {
 
 .right {
     position: absolute;
-    right: 0px;
-    width: 300px;
+    right: 15px;
+    bottom: 150px;
+    width: 500px;
     border: 3px solid #73AD21;
     padding: 10px;
 }
