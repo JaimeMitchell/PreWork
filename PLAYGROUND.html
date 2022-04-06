@@ -5,32 +5,14 @@
     <title>Jaime Mitchell</title>
     <meta charset="UTF-8">
     <!--REMEMBER: "Bettah Self-Close Meta!"-->
-    <link rel="stylesheet" type="text/css" href="myStyle.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
 </head>
 
 <body>
     <!--put header and navigation in div together? Nav may go on bottom right side for style 'Turn Page' button-->
 
     <header class="centerHead">WELCOME TO MY 2-PAGE SPIEL-SITE!</header>
-    <!--intro div-->
-    <div>
-        <h1>Hey there, I'm Jaime Mitchell</h2>
-            <h3>This page marks the beginning of my 15 week journey into a career as a software engineer!</h3>
-    </div>
-    <h2>Here's how software engineering began for me:</h2>
-    <div class="videoWrapper"> 
-        <iframe class="videoWrapper iframe" src="https://www.youtube.com/embed/Ozckjxz_v8A" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-        </iframe>
-    </div>
-    <div>
-        <p id="pYeWhite"> During the lock down I picked up a cheap Raspberry Pi and a knock-off Arduino kit (Elegoo) and
-            taught myself a little bit about microelectronics, embedded coding and the Command Line.</p>
-        <p id="pGrWhite"> With every successful program written I got some confidence and eventually applied to this
-            program.</p>
-    </div>
     <!--Two Truths & a Lie Form-->
     <form class="center">
         <h3>2 truths and a Lie</h3>
@@ -45,30 +27,56 @@
         </p>
     </form>
     <form>
-        <br>
-        <br>
-        <br>
-        <!--Gender Form-->
-        <p>From the video, if I had to pick a box to represent my gender, what is it?</p>
-        <label for="Male">
-            <input id="Male" type="radio" name="gender" value="Male">Male
-        </label>
-        <label for="Female">
-            <input id="Female" type="radio" name="gender" value="Female">Female
-        </label>
-        <label for="X">
-            <input id="X" type="radio" name="gender" value="X">X
-        </label>
-    </form>
-    <!-- break for footer-->
-    <footer><div>
-        <nav>
-            <ul class>
-                <li class="xL" class="hover"><a class="hover" class="visited" class="active" href="index.html">Page
-                        1</a></li>
-                <li class="xL" class="hover"><a a class="hover" class="visited" class="active" href="page2.html">Page
-                        2</a></li>
-            </ul>
-        </nav>
-    </div></footer>
+        <!--intro div-->
+        <div>
+            <nav class="nav">
+                <ul class>
+                    <li class="xL" class="hover"><a class="hover" class="visited" class="active" href="index.html">Page
+                            1</a></li>
+                    <li class="xL" class="hover"><a a class="hover" class="visited" class="active"
+                            href="page2.html">Page 2</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <h1>Hey there, I'm Jaime Mitchell</h2>
+                <h3>This page marks the beginning of my 15 week journey into a career as a software engineer!</h3>
+        </div>
+        <h2 iWhereBegan>Here's how software engineering began for me:</h2>
+        <div class="outerdiv">
+            <iframe class="innerdiv" src="https://www.youtube.com/embed/Ozckjxz_v8A" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div>
+            <p id="pYeWhite"> During the lock down I picked up a cheap Raspberry Pi and a knock-off Arduino kit (Elegoo)
+                and taught myself a little bit about microelectronics, embedded coding and the Command Line.</p>
+            <p id="pGrWhite"> With every successful program written I got some confidence and eventually applied to this
+                program.</p>
+        </div>
+        <!--Two Truths & a Lie Form-->
+        <form class="center">
+            <h3>2 truths and a Lie</h3>
+            <p>I live in a tiny home with wheels
+                <input class="truth" class="center" type="checkbox" name="truth">
+            </p>
+            <p class="hover" class="active">I was a gardener, arborist and moonlighted as a photographer
+                <input class="truth" class="center" type="checkbox" name="false">
+            </p>
+            <p>I love long walks on the beach when the sand is 200 degrees
+                <input class="truth" class="center" type="checkbox" name="false">
+            </p>
+        </form>
+        <form>
+            <br>
+            <br>
+            <br>
+            <!--Gender Form-->
+
+            <!-- break for footer-->
+            <div>
+
+            </div>
 </body>
