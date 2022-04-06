@@ -1,6 +1,10 @@
 body {
     background-color: whitesmoke;
     background-image: url('https://live.staticflickr.com/65535/51980773298_984da77e00_k.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: border-box;
 
 }
 
@@ -22,31 +26,13 @@ header {
     padding: .2em;
 }
 
-.nav {
-    background-color: rgb(101, 84, 228);
-    list-style-type: none;
-    padding: 3px;
-    margin: px;
-    display:inline-block
-  }
-  
-  .nav li {
+.nav {}
+
+.nav li {
     display: inline-block;
     font-size: 20px;
     padding: 20px;
     text-align: right;
-  }
-  
-
-
-}
-
-ul {
-    display: inline-block;
-    padding:10px;
-    margin: 10px;
-    width: flex;
-    text-align: center;
 }
 
 li:hover,
