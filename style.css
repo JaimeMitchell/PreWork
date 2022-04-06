@@ -3,8 +3,9 @@ body {
     background-image: url('https://live.staticflickr.com/65535/51980773298_984da77e00_k.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-origin: border-box;
+    background-position: center;
 
 }
 
@@ -24,20 +25,33 @@ header {
     border: 3px solid rgb(138, 209, 244);
     border-radius: .25em;
     padding: .2em;
+
 }
 
-.nav {}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
-.nav li {
-    display: inline-block;
-    font-size: 20px;
-    padding: 20px;
-    text-align: right;
+li {
+    background-color: aquamarine;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
 }
 
 li:hover,
 li:active {
     font-size: 150%;
+    list-style: none;
 }
 
 a {
@@ -182,6 +196,7 @@ input[type=button] {
 
 footer {
     text-align: left;
+    box-sizing: content-box;
 
 }
 
@@ -236,7 +251,6 @@ img {
     position: absolute;
     left: -320px;
     top: -220px;
-
     overflow: hidden;
 
 }
