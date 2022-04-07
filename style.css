@@ -286,8 +286,17 @@ p.center {
     background-size: 100px;
     color: rgb(252, 199, 208);
 }
-
-
+.silverish{
+    color: rgb(239, 248, 250);
+    font-style: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    color: rgb(193, 233, 159);
+    font-size: 21px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    text-align: center;
+    text-overflow: calc();
+}
+}
 .pSilver {
     color: rgb(239, 248, 250);
     font-style: bold;
