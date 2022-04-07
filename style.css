@@ -422,11 +422,10 @@ label:hover {
 }
 .outerSpace{
     padding: 10px;
+    width: 700px;
     box-sizing: border-box;
-    display: inline-block;
-    width:10px;
-    margin:auto;
-    position: absolute;
+    object-fit: contain;
+
     
 
 }
