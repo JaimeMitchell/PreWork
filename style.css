@@ -58,10 +58,10 @@ header {
     width: 100px;
     float: left;
     text-align: center;
-    padding:
+   
         text-decoration: none;
     color: rgb(204, 240, 235);
-    position: ;
+   
 }
 
 /* Change color on hover */
@@ -76,7 +76,6 @@ ul {
     display: block;
     list-style-type: none;
     overflow: hidden;
-    position:
 }
 
 li.nav {
@@ -289,14 +288,14 @@ p.center {
 .silverish{
     color: rgb(239, 248, 250);
     font-style: bold;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(193, 233, 159);
     font-size: 21px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     text-overflow: calc();
 }
-}
+
 .pSilver {
     color: rgb(239, 248, 250);
     font-style: bold;
@@ -313,7 +312,7 @@ p.center {
 .pGrWhite {
     color: rgb(193, 233, 159);
     font-size: 21px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     text-overflow: calc();
 }
