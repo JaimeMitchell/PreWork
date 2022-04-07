@@ -61,7 +61,7 @@ header {
     padding:
         text-decoration: none;
     color: rgb(204, 240, 235);
-    position:;
+    position: ;
 }
 
 /* Change color on hover */
@@ -76,7 +76,7 @@ ul {
     display: block;
     list-style-type: none;
     overflow: hidden;
-    position: 
+    position:
 }
 
 li.nav {
@@ -134,6 +134,7 @@ a:hover {
     padding-left: 10pxc;
     overflow: auto;
 }
+
 .centerBorder {
     margin: auto;
     width: 50%;
@@ -150,6 +151,7 @@ a:hover {
     padding: 10px;
 
 }
+
 .videoBorder {
     position: absolute;
     right: 3%;
@@ -350,8 +352,9 @@ img {
     position: relative;
     top: 20%;
     right: 5%;
-    float:left;
-    z-index: index 1; ;
+    float: left;
+    z-index: index 1;
+    ;
 
 }
 
@@ -366,22 +369,22 @@ img {
     width: 400px;
     border: 3px solid #73ad2146;
     border-radius: 1em;
-    background-color:#73ad2180 ;
+    background-color: #73ad2180;
     padding: 10px;
     z-index: 2;
-    
+
 
 }
 
 #howItBegan {
-    background-color: red;
-    color: rgb(209, 239, 250);
-    width: 50%;
-    display: inline-block;
+    box-sizing: border-box;
+    z-index: 3;
+    display: block;
     text-align: center;
-    z-index:3; 
-    position: relative;;
-
+    position: relative;
+    color: rgb(209, 239, 250);
+    width: 150%;
+    position: relative;
 
 }
 
