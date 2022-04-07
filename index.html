@@ -10,70 +10,84 @@
 </head>
 
 <body>
-    <!--put header and navigation in div together? Nav may go on bottom right side for style 'Turn Page' button-->
+
+    <!--put header and navigation in div together OR Nav may go on bottom right side for style 'Turn Page' button-->
 
     <header class="centerHead">WELCOME TO MY 2-PAGE SPIEL-SITE!</header>
+
+   <!--NAVIGATION & "HEY THERE" INTRO DIV-->
+   <div class="topnav">
+    <nav>
+      <div>
+        <h1>Hey there! I'm Jaime Mitchell</h1>
+        <h3>Here begins my 15 week journey into a career as a software engineer!</h3>
+      </div>
+      <ul class="navi">
+        <li class="navi" class="xL" class="hover"><a class="navi" class="hover" class="visited" class="active"
+            href="index.html">Home</a></li>
+        <li class="navi" class="xL" class="hover"><a class="navi" class="hover" class="visited" class="active"
+            href="page2.html">About Me</a></li>
+      </ul>
+    </nav>
+  </div>
     
-        <nav>
-            <ul class="navi">
-                <li class="navi" class="xL" class="hover"><a class="navi" class="hover" class="visited" class="active" href="index.html">Home</a></li>
-                <li class="navi" class="xL" class="hover"><a class="navi" class="hover" class="visited" class="active" href="page2.html">About Me</a></li>
-            </ul>
-        </nav>
-   
-    <!--intro div-->
-    <div>
-        <h1>Hey there, I'm Jaime Mitchell</h2>
-            <h3>This page marks the beginning of my 15 week journey into a career as a software engineer!</h3>
-    </div>
-    <h2>Here's how software engineering began for me:</h2>
+   <div class="videoBorder" >
+    <!--YOUTUBE VID DIV-->
     <div class="videoWrapper">
-        
-        <iframe class="videoWrapper iframe" width="540" height="315" src="https://www.youtube.com/embed/Ozckjxz_v8A" title="YouTube video player"
-            frameborder="0"
+        <div id="howItBegan">
+            <h2>Here's how it began for me:</h2>
+        </div>
+        <iframe class="videoWrapper iframe" width="380" height="300" src="https://www.youtube.com/embed/Ozckjxz_v8A"
+            title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
-</div>
-        <p id="pYeWhite"> During the lock down I picked up a cheap Raspberry Pi and a knock-off Arduino kit (Elegoo) and
-            taught myself a
-            little bit about microelectronics, embedded coding and the Command Line.</p>
-        <p id="pGrWhite"> With every successful program written I got some confidence and eventually applied to this
-            program.</p>
-    
-    <!--Two Truths & a Lie Form-->
-    <form class="center">
-        <h3>2 truths and a Lie</h3>
-        <p>I live in a tiny home with wheels
-            <input class="truth" class="center" type="checkbox" name="truth">
-        </p>
-        <p class="hover" class="active">I was a gardener, arborist and moonlighted as a photographer
-            <input class="truth" class="center" type="checkbox" name="false">
-        </p>
-        <p>I love long walks on the beach when the sand is 200 degrees
-            <input class="truth" class="center" type="checkbox" name="false">
-        </p>
-    </form>
-    <form>
-        <br>
-        <br>
-        <br>
-        <!--Gender Form-->
-        <p>From the video, if I had to pick a box to represent my gender, what is it?</p>
-        <label for="Male">
-            <input id="Male" type="radio" name="gender" value="Male">Male
-        </label>
-        <label for="Female">
-            <input id="Female" type="radio" name="gender" value="Female">Female
-        </label>
-        <label for="X">
-            <input id="X" type="radio" name="gender" value="X">X
-        </label>
-    </form>
+    </div> <!--STORY AFTER VIDEO ...DURING LOCKDOWN-->
+    <div>
+        <p class="pYeWhite" > During the lock down I picked up a cheap Raspberry Pi and a knock-off Arduino kit
+            (Elegoo) and taught myself a little bit about microelectronics, embedded coding and the Command Line.</p>
+        <p class="pGrWhite" > With every successful program written I got some confidence and eventually applied to this program.</p>
+    </div></div>
 
+    <!--Space-->
+
+    <div class="space"></div>
+   
+
+    <!--Space-->
+    <div class="space"></div>
+
+    <!--Two Truths & a Lie Form-->
+    <div class="twoTruth">
+        <form class="center">
+            <h3 class="center">2 truths and a Lie</h3>
+            <label for="tinyHome" class="hover">I live in a tiny home with wheels
+                <input id="tinyHome" class="center" type="checkbox" name="truth" value="true">
+           
+            <label for="gardener" >I was a gardener, arborist and moonlighted as a photographer
+                <input id="gardener"  class="center" type="checkbox" name="truth" value="true">
+            </p>
+            <label for="beach">I love long walks on the beach when the sand is 200 degrees
+                <input id="beach"  class="center" type="checkbox" name="truth" value="false">
+            </p>
+        </form>
+    </div>
+    <!--Gender Form-->
+    <div class="gender">
+        <form>
+            <p class="center">From the video, if I had to pick a box to represent my gender, what is it?</p>
+            <label for="Male">
+                <input id="Male" type="radio" name="gender" value="Male">Male
+            </label>
+            <label for="Female">
+                <input id="Female" type="radio" name="gender" value="Female">Female
+            </label>
+            <label for="X">
+                <input id="X" type="radio" name="gender" value="X">X
+            </label>
+        </form>
+    </div>
     <!-- break for footer-->
-    <br>
-    <br>
-    <br>
+<footer class="footer">A footer here</footer>
 
 </body>
 

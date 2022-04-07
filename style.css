@@ -1,40 +1,82 @@
+/*
+Trying out different background options
 body {
-    background-color: whitesmoke;
+    box-sizing: border-box;
+    font-family: Arial;
+    padding: 10px;
+    background-image: url('https://live.staticflickr.com/65535/51980773298_984da77e00_k.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: left top;
+    background-attachment:fixed;
+    background-origin:initial;
+}*/
+
+
+/*body {
+    background-color: black;
     background-image: url('https://live.staticflickr.com/65535/51980773298_984da77e00_k.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-origin: border-box;
     background-position: center;
-
 }
+*/
+body {
+    box-sizing: border-box;
+    font-family: Arial;
+    background-image: url('https://live.staticflickr.com/65535/51980773298_984da77e00_k.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-position: center;
+}
+
 
 header {
-
-    color: rgb(204, 240, 235);
-    background-color: rgb(27, 157, 159);
-    font-family: monospace;
-    font-size: 35pt;
-    font-style: bold;
+    box-sizing: border-box;
+    margin: auto;
     text-align: center;
+    width: 95%;
+    border: 5px solid rgb(138, 209, 244);
+    border-radius: .5em;
+    padding: 5px;
+    color: rgb(204, 240, 235);
+    background-color: rgb(2, 77, 100);
+    font-family: monospace;
+    font-size: 32pt;
+    font-style: bold;
 }
 
-.centerHead {
-    margin: inherit;
-    width: 95%;
-    border: 3px solid rgb(138, 209, 244);
-    border-radius: .25em;
-    padding: .2em;
 
+
+/* Style the topnav links */
+.topnav a {
+    box-sizing: content-box;
+    width: 100px;
+    float: left;
+    text-align: center;
+    padding:
+        text-decoration: none;
+    color: rgb(204, 240, 235);
+    position:;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    box-sizing: border-box;
+    background-color: rgb(27, 157, 159);
+    color: rgb(204, 240, 235);
+    border-radius: 1.2em;
 }
 
 ul {
-    display: block-inline;
+    display: block;
     list-style-type: none;
-    margin: ;
-    padding: ;
     overflow: hidden;
-    position: relative;
+    position: 
 }
 
 li.nav {
@@ -72,31 +114,76 @@ a:hover {
     background-blend-mode: 1;
 }
 
-#div1 {
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: blo
+}
+
+/* Right column */
+.rightcolumn {
+    box-sizing: border-box;
+    float: right;
+    width: 50%;
+    padding-right: 30px;
+    padding-left: 10pxc;
+    overflow: auto;
+}
+.centerBorder {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(138, 209, 244);
+    padding: 10px;
+}
+
+.rightBorder {
+    position: absolute;
+    right: 15px;
+    bottom: 150px;
+    width: 500px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+
+}
+.videoBorder {
+    position: absolute;
+    right: 3%;
+    top: 200px;
+    width: 500px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+
+}
+
+.space {
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+}
+
+.div1 {
     color: rgb(13, 159, 144);
 
 }
 
-#div2 {
+.div2 {
     background-color: rgb(238, 151, 29);
 
 }
 
-#div3 {
+.div3 {
     background-color: rgb(13, 159, 144);
 
 }
 
-#div1,
-#div2,
-#div3,
-#div4 {
-    border: dotted;
-    padding: 12px 0px 12px 12px;
-
 }
 
-span {
+span.coffee {
     color: purple;
     background-color: greenyellow
 }
@@ -108,6 +195,7 @@ ol {
 }
 
 h1 {
+    box-sizing: border-box;
     color: yellowgreen;
     text-decoration: none;
     font-family: helvetica;
@@ -115,12 +203,18 @@ h1 {
     text-align: center;
 }
 
-h2 {
+h2.jaime {
+    box-sizing: border-box;
     color: yellowgreen;
     text-decoration: none;
     font-family: helvetica;
     letter-spacing: 1pt;
+    text-align: center;
 
+}
+
+.heyThere {
+    box-sizing: border-box;
 }
 
 h3 {
@@ -131,16 +225,12 @@ h3 {
     text-align: center;
 }
 
-p {
+p.center {
     font-size: 16pt;
     display: inline-block;
     box-sizing: border-box;
     text-align: center;
-}
 
-p.form {
-    font-size: 16pt;
-    padding: auto;
 }
 
 p:hover {
@@ -154,15 +244,15 @@ p:hover {
     font-style: bold;
 }
 
-#pYeWhite {
+.pYeWhite {
     color: rgb(244, 220, 162)
 }
 
-#pGrWhite {
+.pGrWhite {
     color: rgb(193, 233, 159)
 }
 
-#pBlWhite {
+.pBlWhite {
     color: rgb(159, 233, 233)
 }
 
@@ -171,6 +261,8 @@ table {
     color: rgb(247, 184, 184);
     font-size: 14pt;
 }
+
+
 
 form {
     outline: none;
@@ -181,7 +273,35 @@ form {
     font-style: bold;
     font-family: helvetica;
     color: rgb(129, 237, 139);
+}
 
+label,
+form {
+    font-size: 16pt;
+    font-size: 16pt;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    position: bottom right;
+    padding: 2px;
+}
+
+.gender {
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.twoTruth {
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+
+
+form:hover {
+    background-size: 100px;
+    background-color: rgba(2, 65, 96, 0.583);
+    color: rgb(252, 199, 208);
 
 }
 
@@ -225,10 +345,13 @@ img {
     object-fit: none;
 }
 
+
 .videoWrapper {
     position: relative;
-    top: 25%;
-    right: 5px;
+    top: 20%;
+    right: 5%;
+    float:left;
+    z-index: index 1; ;
 
 }
 
@@ -238,6 +361,27 @@ img {
     box-sizing: border-box;
     border: black solid 5px;
     border-radius: 1em;
+    right: 15px;
+    bottom: 150px;
+    width: 400px;
+    border: 3px solid #73ad2146;
+    border-radius: 1em;
+    background-color:#73ad2180 ;
+    padding: 10px;
+    z-index: 2;
+    
+
+}
+
+#howItBegan {
+    background-color: red;
+    color: rgb(209, 239, 250);
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    z-index:3; 
+    position: relative;;
+
 
 }
 
@@ -261,6 +405,16 @@ img {
     border-radius: 1em;
 }
 
+.footer {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+
 @media screen and (max-width: 800px) {
 
     .leftcolumn,
@@ -275,4 +429,21 @@ img {
         float: none;
         width: 100%;
     }
-}
+
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+
+        .leftcolumn,
+        .rightcolumn {
+            width: 100%;
+            padding: 0;
+        }
+    }
+
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+        .topnav a {
+            float: none;
+            width: 100%;
+        }
+    }
