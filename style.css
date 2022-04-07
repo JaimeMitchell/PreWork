@@ -233,6 +233,14 @@ h2.jaime {
 
 }
 
+h2.table {
+    box-sizing: border-box;
+    color: rgb(50, 125, 205);
+    text-decoration: none;
+    font-family: helvetica;
+    letter-spacing: 1pt;
+    text-align: center;}
+
 h3 {
     color: rgb(239, 184, 107);
     text-decoration: none;
@@ -326,9 +334,10 @@ p.center {
     font-size: 18pt;
 }
 
-table {
+table {float:right;
     width: 310px;
-    background-color: rgba(27, 157, 159, 0.76);
+    border: solid  rgb(50, 125, 205) 5px;
+    background-color: rgba(27, 157, 159, 0.225);
     color: rgb(254, 202, 202);
     font-size: 14pt;
     padding: 15px;
@@ -337,6 +346,30 @@ table {
     border-radius: 1em;
 
 }
+
+tr {
+    width: 310px;
+    border: solid rgb(50, 125, 205) ;
+    background-color: rgba(27, 157, 159, 0.225);
+    color: rgb(254, 202, 202);
+    font-size: 14pt;
+    box-sizing: border-box;
+    margin: auto;
+    overflow: auto;
+    border-radius: 1em;}
+    
+
+
+th {
+    width: 310px;
+    border: solid rgba(102, 53, 128, 0.833) 5px;
+    background-color: rgba(27, 157, 159, 0.225);
+    color: rgb(254, 202, 202);
+    font-size: 14pt;
+    padding: 15px;
+    margin: auto;
+    overflow: auto;
+    border-radius: 1em;}
 
 
 form {
@@ -420,13 +453,14 @@ label:hover {
     object-fit: contain;
 
 }
-.outerSpace{
+
+.outerSpace {
     padding: 10px;
     width: 700px;
     box-sizing: border-box;
     object-fit: contain;
 
-    
+
 
 }
 
