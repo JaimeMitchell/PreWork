@@ -58,10 +58,10 @@ header {
     width: 100px;
     float: left;
     text-align: center;
-   
-        text-decoration: none;
+
+    text-decoration: none;
     color: rgb(204, 240, 235);
-   
+
 }
 
 /* Change color on hover */
@@ -153,6 +153,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+
 .centeredThing {
     position: absolute;
     margin: auto;
@@ -162,17 +163,19 @@ a:hover {
 }
 
 .centeredUnderVid {
-    position:absolute;
+    position: absolute;
     width: 50px;
     margin: 10px;
     top: 50%;
     left: 50%;
 }
+
 .centerBorder {
     margin: auto;
     width: 50%;
     border: 3px solid rgb(138, 209, 244);
     padding: 10px;
+    border-radius: 1em;
 }
 
 .videoBorder {
@@ -285,13 +288,14 @@ p.center {
     background-size: 100px;
     color: rgb(252, 199, 208);
 }
-.silverish{
+
+.silverish {
     color: rgb(239, 248, 250);
     font-style: bold;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(193, 233, 159);
     font-size: 21px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     text-overflow: calc();
 }
@@ -312,25 +316,26 @@ p.center {
 .pGrWhite {
     color: rgb(193, 233, 159);
     font-size: 21px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     text-overflow: calc();
 }
 
 .pBlWhite {
     color: rgb(190, 250, 250);
-    font-size:18pt;
+    font-size: 18pt;
 }
 
 table {
     width: 310px;
-    background-color: rgb(27, 157, 159);
-    color: rgb(247, 184, 184);
+    background-color: rgba(27, 157, 159, 0.76);
+    color: rgb(254, 202, 202);
     font-size: 14pt;
     padding: 15px;
     margin: auto;
     overflow: auto;
-   
+    border-radius: 1em;
+
 }
 
 
@@ -338,10 +343,10 @@ form {
     box-sizing: content-box;
     outline: none;
     padding: 15px;
-   margin-left: 20px;
-   margin-right: 20px;
-   border-color: rgb(4, 40, 73);
-   border-width: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: rgb(4, 40, 73);
+    border-width: 5px;
     background-color: rgb(42, 39, 108);
     border-radius: 1em;
     text-align: center;
@@ -391,7 +396,7 @@ label:hover {
 }
 
 
-p:hover {
+.hover {
     box-sizing: border-box;
     display: block;
     padding: 3px;
@@ -401,21 +406,36 @@ p:hover {
     border-radius: .5em;
 }
 
-    input[type=button] {
-        color: black;
-        background-color: none;
-        padding: 5px;
-        margin: center;
-    }
+.input[type=button] {
+    color: black;
+    background-color: none;
+    padding: 5px;
+    margin: center;
+}
 
+.crow {
+    padding: 10px;
+    width: 700px;
+    box-sizing: border-box;
+    object-fit: contain;
 
+}
+.outerSpace{
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    width:10px;
+    margin:auto;
+    position: absolute;
+    
 
+}
 
-    .footer {
-        box-sizing: border-box;
-        display: inline-block;
-        padding: 20px;
-        text-align: center;
-        background: #ddd;
-        margin-top: 20px;
-    }
+.footer {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
