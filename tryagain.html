@@ -21,7 +21,7 @@ body {
   background-image: url('https://live.staticflickr.com/65535/51980773298_984da77e00_k.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment:
   background-origin: border-box;
   background-position: center;
 }
@@ -54,9 +54,9 @@ body {
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
-    box-sizing: border-box;
+box-sizing: border-box;
   float: left;
-  width: 75%;
+  width: 50%;
   margin-right: auto;
   margin-left:auto;
   display: blo
@@ -65,10 +65,10 @@ body {
 /* Right column */
 .rightcolumn {
   box-sizing: border-box;
-  float: left;
-  width: 25%;
+  float: right;
+  width: 50%;
 padding-right: 30px;
-  padding-left: 0;
+  padding-left:10pxc;
   overflow: auto;
  
 }
@@ -130,7 +130,10 @@ padding-right: 30px;
 </div>
 
 <div class="topnav">
-    <nav>
+    <nav><div>
+        <h1>Hey there, I'm Jaime Mitchell</h2>
+            <h3>This page marks the beginning of my 15 week journey into a career as a software engineer!</h3>
+    </div>
         <ul class="navi">
             <li class="navi" class="xL" class="hover"><a class="navi" class="hover" class="visited" class="active" href="index.html">Home</a></li>
             <li class="navi" class="xL" class="hover"><a class="navi" class="hover" class="visited" class="active" href="page2.html">About Me</a></li>
@@ -141,18 +144,11 @@ padding-right: 30px;
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <div>
-        <h1>Hey there, I'm Jaime Mitchell</h2>
-            <h3>This page marks the beginning of my 15 week journey into a career as a software engineer!</h3>
-    </div>
+      
     <div class="card">
-        <h2 iWhereBegan>Here's how software engineering began for me:</h2>
+       
         <div class>
-            <iframe  src="https://www.youtube.com/embed/Ozckjxz_v8A" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
+            
         </div>
      
       <p id="pYeWhite"> During the lock down I picked up a cheap Raspberry Pi and a knock-off Arduino kit (Elegoo) and

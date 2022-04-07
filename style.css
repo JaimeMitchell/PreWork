@@ -14,7 +14,7 @@ header {
     color: rgb(204, 240, 235);
     background-color: rgb(27, 157, 159);
     font-family: monospace;
-    font-size: 45pt;
+    font-size: 35pt;
     font-style: bold;
     text-align: center;
 }
@@ -133,6 +133,9 @@ h3 {
 
 p {
     font-size: 16pt;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 p.form {
@@ -252,6 +255,10 @@ img {
     left: -320px;
     top: -220px;
     overflow: hidden;
+    box-sizing: border-box;
+    background-clip: border-box;
+    border: black solid 5px;
+    border-radius: 1em;
 }
 
 @media screen and (max-width: 800px) {
