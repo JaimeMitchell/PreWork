@@ -29,16 +29,19 @@ header {
 }
 
 ul {
+    display: block-inline;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: ;
+    padding: ;
     overflow: hidden;
+    position: relative;
 }
 
-li {
-    background-color: aquamarine;
+li.nav {
+
     float: left;
 }
+
 
 li a {
     display: block;
@@ -48,14 +51,16 @@ li a {
     text-decoration: none;
 }
 
+a:link {
+    color: yellow;
+
+}
+
+
 li:hover,
 li:active {
     font-size: 150%;
     list-style: none;
-}
-
-a {
-    color: rgb(227, 238, 97);
 }
 
 a.xl:hover,
@@ -65,15 +70,6 @@ a.xL:active {
 
 a:hover {
     background-blend-mode: 1;
-}
-
-a:link {
-    color: yellow;
-
-}
-
-a:active {
-    color: blue;
 }
 
 #div1 {
@@ -227,21 +223,25 @@ img {
 }
 
 .videoWrapper {
-    box-sizing: content-box;
     position: relative;
-    background-clip: border-box;
-
+    top: 25%;
+    right: 5px;
 
 }
 
 .videoWrapper iframe {
     position: absolute;
     background-clip: border-box;
+    box-sizing: border-box;
+    border: black solid 5px;
+    border-radius: 1em;
+
 }
 
 #outerdiv {
 
-    width: 500px;
+    width: 100%;
+    min-height: 100%;
     position: relative;
 
 }
@@ -252,5 +252,20 @@ img {
     left: -320px;
     top: -220px;
     overflow: hidden;
+}
 
+@media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
 }
