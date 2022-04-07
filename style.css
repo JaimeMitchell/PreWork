@@ -248,6 +248,12 @@ h3 {
     letter-spacing: 1pt;
     text-align: center;
 }
+.social{
+color: rgb(193, 233, 159);
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
 
 .videoWrapper {
     position: relative;
