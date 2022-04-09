@@ -384,7 +384,7 @@ background-color: rgba(0, 0, 0, 0.259);
 
 label,
 form {
-    position: ;
+   
     font-size: 12pt;
     display: block;
     box-sizing: border-box;
@@ -464,5 +464,14 @@ label:hover {
 .button{
     background-color: rgb(1, 33, 33);
     color: rgb(119, 228, 228);
-    border-radius: 1.2em;
-}
+    border-radius: 1.2em;}
+
+.redish
+{color: rgb(239, 248, 250);
+    font-style: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(193, 233, 159);
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(236, 129, 211);}
