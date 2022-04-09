@@ -1,28 +1,4 @@
-/*
-Trying out different background options
-body {
-    box-sizing: border-box;
-    font-family: Arial;
-    padding: 10px;
-    background-image: url('https://live.staticflickr.com/65535/51980773298_984da77e00_k.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: left top;
-    background-attachment:fixed;
-    background-origin:initial;
-}*/
 
-
-/*body {
-    background-color: black;
-    background-image: url('https://live.staticflickr.com/65535/51980773298_984da77e00_k.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-origin: border-box;
-    background-position: center;
-}
-*/
 body {
     box-sizing: border-box;
     font-family: Arial;
@@ -86,7 +62,7 @@ li.nav {
 
 li a {
     display: block;
-    color: white;
+    color: rgb(204, 240, 235);
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
@@ -104,24 +80,23 @@ li:active {
     list-style: none;
 }
 
+a.s {
+    text-decoration: none;
+}
+
 a.xl:hover,
 a.xL:active {
     font-size: 150%;
 }
 
-a:hover {
-    background-blend-mode: 1;
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
+/* Right column */
 .leftcolumn {
     box-sizing: border-box;
     float: left;
     width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    display: block
+    padding-right: 30px;
+    padding-left: 10pxc;
+    overflow: auto;
 }
 
 /* Right column */
@@ -137,6 +112,11 @@ a:hover {
 .right {
     position: absolute;
     right: 0px;
+}
+
+.left {
+    position: absolute;
+    left: 0px;
 }
 
 .textCenter {
@@ -245,30 +225,29 @@ h3 {
 
 .videoWrapper {
     position: relative;
-    top: 20%;
+    top: 30%;
     right: 5%;
-    float: left;
-    z-index: index 1;
-    ;
+    float: right;
+    z-index: index 2;
+    
 
 }
 
 .videoWrapper iframe {
     position: absolute;
-    background-clip: border-box;
     box-sizing: border-box;
     border-radius: 1em;
     right: 15px;
-    bottom: 150px;
     width: 400px;
     border: 3px solid #73ad2146;
     border-radius: 1em;
     background-color: #73ad2180;
     padding: 10px;
-    z-index: 2;
+    z-index: 1;
 
-
-
+}
+.vidTitle{z-index:3;
+box-sizing: content-box; display:inline; position:relative; width:100px; 
 }
 
 .paraBox {
@@ -299,7 +278,6 @@ p.center {
     font-size: 21px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    text-overflow: calc();
 }
 
 .pSilver {
@@ -328,6 +306,10 @@ p.center {
     font-size: 18pt;
 }
 
+td a {
+    display:block;
+  }
+
 h2.tableTitle {
     position: absolute;
     margin: 100px, 50px, 10px, 50px;
@@ -349,7 +331,6 @@ table {
     width: 310px;
     border: solid rgb(50, 125, 205) 5px;
     border-radius: 1em;
-    background-color: rgba(27, 157, 159, 0.225);
     color: rgb(254, 202, 202);
     font-size: 14pt;
 
@@ -365,6 +346,7 @@ tr {
     margin: auto;
     overflow: auto;
     border-radius: 1em;
+    text-align: center;
 }
 
 
@@ -379,34 +361,35 @@ th {
     margin: auto;
     overflow: auto;
     border-radius: 1em;
+    text-align: center;
 }
 
 
 form {
-    box-sizing: content-box;
-    outline: none;
-    padding: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-color: rgb(4, 40, 73);
-    border-width: 5px;
-    background-color: rgb(42, 39, 108);
+    position: absolute ;
+    box-sizing: border-box;
+background-color: rgba(0, 0, 0, 0.259);
+    border: solid 1px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 1em;
     text-align: center;
+    float: right;
     font-style: bold;
     font-family: helvetica;
-    color: rgb(129, 237, 139);
+    color: rgb(196, 235, 249);
+    border-color: rgba(49, 47, 47, 0.59)
+    
 }
 
 label,
 form {
-    font-size: 16pt;
-    font-size: 16pt;
+    position: ;
+    font-size: 12pt;
     display: block;
     box-sizing: border-box;
     text-align: center;
-    position: bottom right;
-    padding: 2px;
+    padding:3px;
 }
 
 
@@ -422,7 +405,6 @@ form {
     display: block;
     padding: 3px;
     background-size: 100px;
-    background-color: rgba(2, 65, 96, 0.7);
     color: rgb(252, 199, 208);
     border-radius: .5em;
 
@@ -433,18 +415,6 @@ label:hover {
     display: block;
     padding: 3px;
     background-size: 100px;
-    background-color: rgba(2, 65, 96, 0.7);
-    color: rgb(252, 199, 208);
-    border-radius: .5em;
-}
-
-
-.hover {
-    box-sizing: border-box;
-    display: block;
-    padding: 3px;
-    background-size: 100px;
-    background-color: rgba(2, 65, 96, 0.7);
     color: rgb(252, 199, 208);
     border-radius: .5em;
 }
@@ -457,10 +427,12 @@ label:hover {
 }
 
 .crow {
-    padding: 10px;
+    padding: 3px;
     width: 700px;
     box-sizing: border-box;
     object-fit: contain;
+    background-color: rgb(1, 28, 20);
+    border-radius: 1em;
 
 }
 
@@ -488,4 +460,9 @@ label:hover {
     text-align: center;
     background: #ddd;
     margin-top: 20px;
+}
+.button{
+    background-color: rgb(1, 33, 33);
+    color: rgb(119, 228, 228);
+    border-radius: 1.2em;
 }
