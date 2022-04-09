@@ -25,14 +25,15 @@ header {
     font-style: bold;
 }
 
-.nav{position:relative;
+.nav {
+    position: relative;
     float: right;
     list-style: none;
     width: 100px;
     box-sizing: border-box;
     background-color: aqua;
-   
-   
+
+
 }
 
 /* Style the topnav links */
@@ -42,10 +43,10 @@ header {
     width: 100px;
     float: left;
     text-align: center;
-position: relative;
+    position: relative;
     text-decoration: none;
     color: rgb(204, 240, 235);
-   
+
 
 }
 
@@ -54,10 +55,12 @@ position: relative;
     box-sizing: border-box;
     color: rgb(204, 240, 235);
     border-radius: 1.2em;
- background-color: rgba(3, 48, 48, 0.628);}
+    background-color: rgba(3, 48, 48, 0.628);
+}
 
 
-ul { list-style: none;
+ul {
+    list-style: none;
     display: block;
     border-radius: 1em;
 }
@@ -185,7 +188,9 @@ a.xL:active {
 
 span {
     color: purple;
-    background-color: greenyellow
+    background-color: greenyellow;
+    border-radius: .25em;
+    padding: 3px;
 }
 
 ol {
@@ -294,7 +299,7 @@ p.center {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     color: rgb(236, 129, 211);
-    
+
 }
 
 td a {
@@ -369,7 +374,6 @@ form {
     font-style: bold;
     font-family: helvetica;
     color: rgb(196, 235, 249);
-    border-color: rgba(49, 47, 47, 0.59)
 }
 
 label,
@@ -456,9 +460,9 @@ label:hover {
     z-index: index 1;
     margin-right: auto;
     margin-left: auto;
-    border: 3px solid #73ad2146;
+    border: solid #73ad21f7;
     border-radius: 1em;
-    background-color: #73ad2180;
+    background-color: #3f630e80;
     padding: 10px;
 }
 
@@ -469,7 +473,26 @@ label:hover {
     width: fit-content;
     z-index: 2;
     margin-right: auto;
-    margin-left: auto;}
+    margin-left: auto;
+}
+
+.duringLock {
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.485);
+    border: solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+    text-align: center;
+    float: right;
+    font-style: bold;
+    font-family: helvetica;
+    color: rgb(196, 235, 249);
+    border: 1 rgb(1, 28, 20);
+    padding: 8px;
+    word-spacing: 1px;
+}
 
 .footer {
     box-sizing: border-box;
