@@ -361,13 +361,13 @@ th {
 
 
 form {
-    position: absolute;
+    position: fixed;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.485);
     border: solid 1px;
     margin: auto;
-    left: 3%;
-    top: 200%;
+    left:;
+    top:;
     border-radius: 1em;
     text-align: center;
     float: right;
@@ -380,8 +380,7 @@ label,
 form {
 
     font-size: 12pt;
-    display: block;
-    box-sizing: border-box;
+    
     text-align: center;
     padding: 3px;
 }
@@ -402,11 +401,7 @@ label:hover {
     border-radius: 1.2em;
 }
 
-.twoTruth {
-    box-sizing: border-box;
-    display: inline-block;
 
-}
 
 
 .hover {
@@ -427,17 +422,15 @@ label:hover {
 }
 
 .crow {
-    padding: 3px;
-    width: 600px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    position: initial;
     box-sizing: border-box;
-    object-fit: contain;
-    position: absolute;
-    margin: auto;
-    top: 105%;
-    left: 3%;
-    background-color: rgb(1, 28, 20);
+    display: block;
     border-radius: 1em;
-
+    border-color: rgb(1, 28, 20); 
+    border-radius: 1em;
 }
 
 .outerSpace {
@@ -448,7 +441,6 @@ label:hover {
     box-sizing: border-box;
     display: block;
     border-radius: 1em;
-    background-color: rgb(1, 28, 20);
     border-color: rgb(1, 28, 20); 
     border-radius: 1em;
 
