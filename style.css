@@ -28,6 +28,7 @@ header {
 .nav {
     position: relative;
     float: right;
+    bottom:0;
     list-style: none;
     width: 100px;
     box-sizing: border-box;
