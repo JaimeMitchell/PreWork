@@ -26,7 +26,7 @@ header {
 }
 
 .nav {
-    position: relative;
+    
     float: right;
     bottom:0;
     list-style: none;
@@ -66,12 +66,12 @@ ul {
 }
 
 li.nav {
-
-    float: left;
+display: flex;
 }
 
 
 li a {
+    
     display: block;
     color: rgb(204, 240, 235);
     text-align: center;
@@ -168,7 +168,12 @@ a.xL:active {
     padding: 10px;
     border-radius: 1em;
 }
-
+.centerFlex{
+    display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+}
 .space {
     box-sizing: border-box;
     height: 200px;
@@ -221,6 +226,7 @@ h2.jaime {
 
 
 h3 {
+    display: flex;
     color: rgb(239, 184, 107);
     text-decoration: none;
     font-family: helvetica;
@@ -362,7 +368,8 @@ th {
 
 
 form {
-    position: absolute;
+    display: flex;
+    justify-content: center;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.485);
     border: solid 1px;
@@ -377,36 +384,33 @@ form {
     color: rgb(196, 235, 249);
 }
 
-label,
-form {
+
+form,label {
 
     font-size: 12pt;
-    display: block;
-    box-sizing: border-box;
-    text-align: center;
+    display: flex;
+    text-align: left;
     padding: 3px;
+    flex-direction: column;
+    justify-self: left;
+    flex-wrap: wrap;
+    align-content: left;
 }
-
-label:hover {
-    box-sizing: border-box;
-    display: block;
+label{display: flex;
+    font-size: 12pt;
+   text-align: left;
     padding: 3px;
-    background-size: 100px;
-    color: rgb(252, 199, 208);
-    border-radius: .5em;
-}
+    flex-direction: column;
+    justify-self: left;
+    flex-wrap: wrap;
+    align-content: left;
 
+}
 
 .button {
     background-color: rgb(1, 33, 33);
     color: rgb(119, 228, 228);
     border-radius: 1.2em;
-}
-
-.twoTruth {
-    box-sizing: border-box;
-    display: inline-block;
-
 }
 
 
@@ -425,17 +429,18 @@ label:hover {
     background-color: none;
     padding: 5px;
     margin: center;
+    
 }
 
 .crow {
     padding: 3px;
-    width: 600px;
+    width: 500px;
     box-sizing: border-box;
     object-fit: contain;
-    position: absolute;
-    margin: auto;
-    top: 105%;
-    left: 3%;
+    display: flex;
+    align-self: left;
+    flex-direction: row;
+    justify-content: left;
     background-color: rgb(1, 28, 20);
     border-radius: 1em;
 
@@ -447,7 +452,9 @@ label:hover {
     margin-right: auto;
     position: initial;
     box-sizing: border-box;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
     border-radius: 1em;
     background-color: rgb(1, 28, 20);
     border-color: rgb(1, 28, 20); 
@@ -487,12 +494,13 @@ label:hover {
 }
 
 .duringLock {
-    position: relative;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.485);
     border: solid 1px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
     border-radius: 1em;
     text-align: center;
     float: right;
