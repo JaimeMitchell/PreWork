@@ -26,7 +26,7 @@ header {
 }
 
 .nav {
-    
+    position: relative;
     float: right;
     bottom:0;
     list-style: none;
@@ -66,12 +66,12 @@ ul {
 }
 
 li.nav {
-display: flex;
+
+    float: left;
 }
 
 
 li a {
-    
     display: block;
     color: rgb(204, 240, 235);
     text-align: center;
@@ -168,12 +168,7 @@ a.xL:active {
     padding: 10px;
     border-radius: 1em;
 }
-.centerFlex{
-    display: flex;
-flex-direction: column;
-align-content: center;
-justify-content: center;
-}
+
 .space {
     box-sizing: border-box;
     height: 200px;
@@ -226,7 +221,6 @@ h2.jaime {
 
 
 h3 {
-    display: flex;
     color: rgb(239, 184, 107);
     text-decoration: none;
     font-family: helvetica;
@@ -368,42 +362,42 @@ th {
 
 
 form {
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
+    
     background-color: rgba(0, 0, 0, 0.485);
     border: solid 1px;
-    margin: auto;
-    left: 3%;
-    top: 200%;
+  
     border-radius: 1em;
     text-align: center;
-    float: right;
+    
     font-style: bold;
     font-family: helvetica;
     color: rgb(196, 235, 249);
 }
 
+.FLEX{
 
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-content: center;
+flex-direction: column;
+}
 form,label {
 
     font-size: 12pt;
-    display: flex;
-    text-align: left;
+   
+    text-align: center;
     padding: 3px;
-    flex-direction: column;
-    justify-self: left;
     flex-wrap: wrap;
-    align-content: left;
+   
 }
-label{display: flex;
+label{
     font-size: 12pt;
-   text-align: left;
+    text-align: center;
     padding: 3px;
-    flex-direction: column;
-    justify-self: left;
+    
     flex-wrap: wrap;
-    align-content: left;
+   
 
 }
 
@@ -434,13 +428,9 @@ label{display: flex;
 
 .crow {
     padding: 3px;
-    width: 500px;
+    width: 700px;
     box-sizing: border-box;
     object-fit: contain;
-    display: flex;
-    align-self: left;
-    flex-direction: row;
-    justify-content: left;
     background-color: rgb(1, 28, 20);
     border-radius: 1em;
 
@@ -494,7 +484,7 @@ label{display: flex;
 }
 
 .duringLock {
-    box-sizing: border-box;
+   
     background-color: rgba(0, 0, 0, 0.485);
     border: solid 1px;
     display: flex;
